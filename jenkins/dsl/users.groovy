@@ -1,4 +1,4 @@
-def String projectDir = 'projects'
+def String projectDir = ''
 
 job('Users API Build') {
 	jdk('openjdk-11')
