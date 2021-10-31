@@ -8,7 +8,7 @@ job('Users API Jenkins DSL') {
 			remote {
 				url('https://github.com/juanjordaan/users-api')
 			}
-			branch('*/failing_tests')
+			branch('*/master')
 		}
 	}
 
