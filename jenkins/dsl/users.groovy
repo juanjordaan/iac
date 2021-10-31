@@ -1,6 +1,6 @@
 def String projectDir = 'projects'
 
-job('Users API Jenkins DSL') {
+job('Users API Build') {
 	jdk('openjdk-11')
 
 	scm {
