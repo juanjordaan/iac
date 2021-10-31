@@ -1,4 +1,4 @@
-def String projectDir = ''
+//def String projectDir = ''
 
 job('Users API Build') {
 	jdk('openjdk-11')
@@ -19,7 +19,7 @@ job('Users API Build') {
 	steps {
 		maven {
 			mavenInstallation('maven_3_8_3')
-			rootPOM("${projectDir}/pom.xml")
+//			rootPOM("${projectDir}/pom.xml")
 			goals('test')
 		}
 	}
