@@ -1,4 +1,4 @@
-def String projectDir = 'projects/next-location'
+def String projectDir = 'projects'
 
 job('Users API Jenkins DSL') {
 	jdk('openjdk-11')
